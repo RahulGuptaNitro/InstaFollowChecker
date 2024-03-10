@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Insta Follower Checker",
+    "description": "Check insta followers, followings and more",
+    "version": "1.0",
+    "host_permissions": [
+        "https://www.instagram.com/*"
+    ],
+    "action": {
+        "default_popup": "checker.html",
+        "default_icon": "r.png"
+    }
+}

@@ -1,0 +1,47 @@
+html {
+    padding-inline: 10px;
+    padding-block: 20px;
+    min-width: 360px;
+    min-height: 150px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.tab button {
+    flex: 1;
+    text-align: center;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    width: 60vw;
+}
+
+table.table thead tr th {
+    border-bottom: 1px solid gray;
+}
